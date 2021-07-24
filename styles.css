@@ -1,0 +1,56 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+#main-div {
+  background-image: url(images/photo.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container-div {
+  width: 450px;
+  height: 430px;
+  border: 3px #999 solid;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+#legendary-div {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(385deg, #3bdd8b, #768ab8 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 15px;
+}
+#main-text {
+  padding: 35px 20px 0;
+  font-weight: 600;
+  line-height: 30px;
+  color: #333333;
+}
+#button-style {
+  background-color: rgba(255, 255, 255, 0.251);
+  border: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: #333333;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  opacity: 80%;
+  font-family: "Open Sans", sans-serif;
+}
+#button-div {
+    padding:0 20px;
+}
